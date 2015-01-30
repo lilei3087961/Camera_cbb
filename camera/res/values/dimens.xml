@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2009, The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <dimen name="hint_y_offset">64dp</dimen>
+    <dimen name="pano_mosaic_surface_height">240dp</dimen>
+    <dimen name="pano_review_button_width">70dp</dimen>
+    <dimen name="setting_popup_right_margin">5dp</dimen>
+    <dimen name="setting_row_height">45dp</dimen>
+    <dimen name="setting_item_text_size">20sp</dimen>
+    <dimen name="setting_knob_width">45dp</dimen>
+    <dimen name="setting_knob_text_size">20dp</dimen>
+    <dimen name="setting_item_text_width">132dp</dimen>
+    <dimen name="setting_popup_window_width">260dp</dimen>
+    <dimen name="setting_item_list_margin">0dp</dimen>
+    <dimen name="indicator_bar_width">48dp</dimen>
+    <dimen name="indicator_width">62dp</dimen>
+    <dimen name="popup_title_text_size">20sp</dimen>
+    <dimen name="big_setting_popup_window_width">325dp</dimen>
+    <dimen name="setting_item_icon_width">28dp</dimen>
+    <dimen name="effect_setting_item_icon_width">40dp</dimen>
+    <dimen name="effect_setting_item_text_size">12sp</dimen>
+    <dimen name="effect_setting_type_text_size">12sp</dimen>
+    <dimen name="effect_setting_type_text_min_height">36dp</dimen>
+    <dimen name="effect_setting_clear_text_size">20dp</dimen>
+    <dimen name="effect_setting_clear_text_min_height">45dp</dimen>
+    <dimen name="effect_setting_type_text_left_padding">16dp</dimen>
+    <dimen name="onscreen_indicators_height">28dp</dimen>
+    <dimen name="onscreen_exposure_indicator_text_size">15dp</dimen>
+    <dimen name="indicator_bar_padding">8dp</dimen>
+    <dimen name="control_panel_min_length">43dp</dimen>
+    <dimen name="thumbnail_size">60dp</dimen>
+    <dimen name="setting_sub_popup_bottom_margin">180dp</dimen>
+    <dimen name="setting_sub_popup_top_margin">10dp</dimen>
+    <dimen name="setting_sub_popup_pad">10dp</dimen>
+    <dimen name="setting_sub_popup_land_margin_left">160dp</dimen>
+    <dimen name="setting_sub_popup_margin_left_90">75dp</dimen>
+    <dimen name="setting_popup_dialog_width">230dp</dimen>
+	<dimen name="basic_setting_popup_offset">15dp</dimen>                                                                        
+	<dimen name="effect_setting_popup_offset">25dp</dimen>
+	<dimen name="other_setting_popup_offset">15dp</dimen>
+</resources>

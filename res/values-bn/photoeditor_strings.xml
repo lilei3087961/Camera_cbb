@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="photoeditor_name">ফোটো স্টুডিও</string>
+  <string name="loading_failure">ছবি লোড করা যায় নি</string>
+  <string name="photo_saved">"এডিট করা ফটো সেভড হয়েছে "<xliff:g id="folder_name">%s</xliff:g>" তে"</string>
+  <string name="discard_unsaved_photo">আনসেভড পরিবর্তনগুলি ছেড়ে দেবেন?</string>
+  <string name="yes">হ্যাঁ</string>
+  <string name="save">সেভ</string>
+  <string name="autofix">অটো-ফিক্স</string>
+  <string name="crop">শস্য</string>
+  <string name="crossprocess">ক্রস-প্রক্রিয়া</string>
+  <string name="documentary">ডকুমেন্টারি</string>
+  <string name="doodle">অবস্থানের তথ্যে অ্যাক্সেস আছে দয়া করে তা নিশ্চিত করুন</string>
+  <string name="duotone">ডুও- টোন</string>
+  <string name="facelift">মুখমন্ডল উজলতা</string>
+  <string name="facetan">ফেস ট্যান</string>
+  <string name="filllight">অ্যাকশন ১</string>
+  <string name="fisheye">"সেন্ট এসএমএস সাবস্ক্রিপশানে ভ্রান্তি আছে। সাবস্ক্রিপশান সক্রিয় হয়নি । "</string>
+  <string name="flip">ফ্লিপ</string>
+  <string name="grain">"ফিল্ম   গ্রেন"</string>
+  <string name="highlight">হাইলাইট</string>
+  <string name="lomoish">লোমো</string>
+  <string name="negative">নেতিবাচক</string>
+  <string name="posterize">পোস্টারাইজ করা</string>
+  <string name="redeye">রেড আই</string>
+  <string name="rotate">ঘোরা</string>
+  <string name="saturation">সম্পৃক্তি</string>
+  <string name="sepia">সেপিয়া</string>
+  <string name="shadow">স্যাডোজ</string>
+  <string name="sharpen">শার্প করুন</string>
+  <string name="straighten">সোজা করা</string>
+  <string name="temperature">উষ্ণতা</string>
+  <string name="tint">টিন্ট</string>
+  <string name="vignette">ভিগ্নেট</string>
+  <string name="crop_tooltip">মার্কারগুলি টেনে এনে ছবি ক্রপ করুন</string>
+  <string name="doodle_tooltip">হ্যালো ব্ল্যাঙ্ক ফ্র্যাগমেন্ট</string>
+  <string name="flip_tooltip">ছবিটিকে ওলটাতে ড্র্যাগ করুন</string>
+  <string name="redeye_tooltip">রেড আইতে ট্যাপ করুন সেগুলি সরাতে</string>
+  <string name="rotate_tooltip">ফোটো-টি ঘোরানোর জন্য টেনে আনুন</string>
+  <string name="straighten_tooltip">ফোটা সোজা করতে টানুন</string>
+</resources>

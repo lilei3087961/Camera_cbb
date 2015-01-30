@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="camera_error_title">Kamerafehler</string>
+  <string name="cannot_connect_camera">Kamera nicht erkannt.</string>
+  <string name="camera_disabled">Die Kamera wurde aufgrund von Sicherheitsrichtlinien deaktiviert.</string>
+  <string name="camera_label">Kamera</string>
+  <string name="video_camera_label">Camcorder</string>
+  <string name="gallery_camera_bucket_name">Kamerabilder</string>
+  <string name="gallery_camera_videos_bucket_name">Kameravideos</string>
+  <string name="wait">Bitte warten...</string>
+  <string name="no_camera_storage" product="nosdcard">Stellen Sie vor Verwendung der Kamera einen interner speicher bereit.</string>
+  <string name="no_camera_storage" product="default">Legen Sie eine externer speicher (SD-Karte), bevor Sie die Kamera verwenden.</string>
+  <string name="not_enough_space" product="nosdcard">Ihr interner speicher ist voll.</string>
+  <string name="not_enough_space" product="default">Ihre externer speicher (SD-Karte) voll ist.</string>
+  <string name="preparing_sd" product="nosdcard">interner speicher wird vorbereitet</string>
+  <string name="preparing_sd" product="default">Vorbereiten externer speicher (SD-Karte)\ u2026</string>
+  <string name="access_sd_fail" product="nosdcard">Kein Zugriff auf interner speicher möglich</string>
+  <string name="access_sd_fail" product="default">Konnte nicht auf externer speicher (SD-Karte).</string>
+  <string name="confirm_restore_message">Möchten Sie die Standardeinstellungen der Kamera wiederherstellen?</string>
+  <string name="review_play">Abspielen</string>
+  <string name="review_cancel">Abbrechen</string>
+  <string name="review_ok">Fertig</string>
+  <string name="review_retake">Erneut aufnehmen</string>
+  <string name="camera_gallery_photos_text">Galerie</string>
+  <string name="time_lapse_title">Zeitrafferaufnahme</string>
+  <string name="pref_camera_id_title">Kamera wählen</string>
+  <string name="pref_camera_id_entry_back">Zurück</string>
+  <string name="pref_camera_id_entry_front">Vorderseite</string>
+  <string name="pref_camera_recordlocation_title">Speicherinfo</string>
+  <string name="pref_camera_recordlocation_entry_off">Aus</string>
+  <string name="pref_camera_recordlocation_entry_on">An</string>
+  <string name="pref_video_quality_title">Videoqualität</string>
+  <string name="pref_video_time_lapse_frame_interval_title">Zeitrafferintervall</string>
+  <string name="pref_camera_settings_category">Kameraeinstellungen</string>
+  <string name="pref_camcorder_settings_category">Camcordereinstellungen</string>
+  <string name="pref_camera_picturesize_title">Bildgröße</string>
+  <string name="pref_camera_focusmode_title">Fokus-Modus</string>
+  <string name="pref_camera_focusmode_entry_auto">Automatisch</string>
+  <string name="pref_camera_focusmode_entry_infinity">Unendlich</string>
+  <string name="pref_camera_focusmode_entry_macro">Makro</string>
+  <string name="pref_camera_flashmode_title">Blitzmodus</string>
+  <string name="pref_camera_flashmode_entry_auto">Automatisch</string>
+  <string name="pref_camera_flashmode_entry_on">An</string>
+  <string name="pref_camera_flashmode_entry_off">Aus</string>
+  <string name="pref_camera_whitebalance_title">Weißabgleich</string>
+  <string name="pref_camera_whitebalance_entry_auto">Automatisch</string>
+  <string name="pref_camera_whitebalance_entry_incandescent">Glühlampenlicht</string>
+  <string name="pref_camera_whitebalance_entry_daylight">Tageslicht</string>
+  <string name="pref_camera_whitebalance_entry_fluorescent">Neonlicht</string>
+  <string name="pref_camera_whitebalance_entry_cloudy">Bewölkt</string>
+  <string name="pref_camera_scenemode_title">Szenenmodus</string>
+  <string name="pref_camera_scenemode_entry_auto">Automatisch</string>
+  <string name="pref_camera_scenemode_entry_action">Action</string>
+  <string name="pref_camera_scenemode_entry_night">Nachtaufnahme</string>
+  <string name="pref_camera_scenemode_entry_sunset">Sonnenuntergang</string>
+  <string name="pref_camera_scenemode_entry_party">Party</string>
+  <string name="not_selectable_in_scene_mode">Diese Einstellung kann im Szenenmodus nicht ausgewählt werden.</string>
+  <string name="pref_restore_title">Kameraeinstellungen</string>
+  <string name="pref_restore_detail">Standard wiederherstellen</string>
+  <string name="pref_exposure_title">Belichtung</string>
+  <string name="dialog_ok">OK</string>
+  <string name="spaceIsLow_content">Ihr interner speicher bietet nicht mehr genug Speicherplatz. Ändern Sie die Qualitätseinstellung oder löschen Sie Bilder oder andere Dateien.</string>
+  <string name="video_reach_size_limit">Maximale Größe erreicht</string>
+  <string name="share_picture_via">Bild teilen über</string>
+  <string name="share_video_via">Video teilen über</string>
+  <string name="no_picture_to_share">Kein Bild zum Teilen</string>
+  <string name="no_video_to_share">Kein Video zum Teilen</string>
+  <string name="pano_too_fast_prompt">Zu schnell</string>
+  <string name="pano_dialog_prepare_preview">Panorama wird vorbereitet...</string>
+  <string name="pano_dialog_panorama_failed">Panorama konnte nicht gespeichert werden.</string>
+  <string name="pano_dialog_title">Panorama</string>
+  <string name="pano_capture_indication">Panorama wird aufgenommen...</string>
+  <string name="pano_dialog_waiting_previous">Warten auf vorheriges Panorama</string>
+  <string name="pano_review_saving_indication_str">Speichert...</string>
+  <string name="tap_to_focus">Zum Fokussieren tippen</string>
+  <string name="pref_video_effect_title">Effekte</string>
+  <string name="effect_none">Keine</string>
+  <string name="effect_goofy_face_squeeze">Quetschen</string>
+  <string name="effect_goofy_face_big_eyes">Große Augen</string>
+  <string name="effect_goofy_face_big_mouth">Großer Mund</string>
+  <string name="effect_goofy_face_small_mouth">Kleiner Mund</string>
+  <string name="effect_goofy_face_big_nose">Große Nase</string>
+  <string name="effect_goofy_face_small_eyes">Kleine Augen</string>
+  <string name="effect_backdropper_space">Im All</string>
+  <string name="effect_backdropper_sunset">Sonnenuntergang</string>
+  <string name="effect_backdropper_gallery">Mein Video</string>
+  <string name="bg_replacement_message">Legen Sie Ihr Gerät ab.\nTreten Sie für einen kurzen Moment aus dem Aufnahmebereich.</string>
+  <string name="not_selectable_in_effect">Bei aktiviertem Effekt nicht auswählbar</string>
+  <string name="video_snapshot_hint">Zum Erstellen eines Fotos während der Aufnahme tippen</string>
+  <string name="disable_video_snapshot_hint">Video-Schnappschuss ist bei Spezialeffekten deaktiviert.</string>
+  <string name="clear_effects">Effekte löschen</string>
+  <string name="effect_silly_faces">Lustige Gesichter</string>
+  <string name="effect_background">Hintergrund</string>
+  <string name="accessibility_shutter_button">Auslöseknopf</string>
+  <string name="accessibility_review_thumbnail">Neuestes Foto</string>
+  <string name="accessibility_camera_picker">Zwischen Kamera auf der Vorder- und Rückseite wechseln</string>
+  <string name="accessibility_mode_picker">Auswahl: Kamera, Video oder Panorama</string>
+  <string name="accessibility_second_level_indicators">Weitere Einstellungen</string>
+  <string name="accessibility_back_to_first_level">Einstellungen schließen</string>
+  <string name="accessibility_zoom_control">Zoom-Steuerung</string>
+  <string name="accessibility_decrement">Verkleinern %1$s</string>
+  <string name="accessibility_increment">Vergrößern %1$s</string>
+  <string name="accessibility_switch">Schalter %1$s</string>
+  <string name="accessibility_switch_to_camera">In Kamera-Modus wechseln</string>
+  <string name="accessibility_switch_to_video">In Video-Modus wechseln</string>
+  <string name="accessibility_switch_to_panorama">In Panorama-Modus wechseln</string>
+  <string name="skin_tone_enhancement">"Skin Tone Enhancement"</string>
+   <string name="calling_stop_recording">Bei einem Aufruf, Stop Videoaufnahme.</string>
+   <string name="calling_unable_recording">Bei einem Aufruf, kann kein Video aufgenommen.</string>
+   
+   <!-- Settings screen, Storage location title -->   
+       <string name="pref_storage_place_title">Storage location</string>
+  
+      <!-- Default storage location setting. -->    
+     
+       <string name="pref_storage_place_entry_memory">Interner Speicher</string>  
+       <string name="pref_storage_place_entry_sdcard">Externer Speicher (SD-Karte)</string>
+
+   
+       <string name="camera_no_memory_storage">interner speicher einlegen, um Kamera zu benutzen.</string>  
+       <string name="camera_preparing_memory">Vorbereiten  interner speicher\ u2026</string>   
+       <string name="camera_access_memory_fail">Konnte nicht auf internen speicher.</string>  
+       <string name="camera_not_enough_memory_space">Ihr interner speicher voll ist.</string>   
+       <string name="camera_memory_spaceIsLow_content">Ihr Telefon Lagerung läuft aus dem Raum.Ändern der Bildqualität oder löschen Sie einige Bilder oder andere Dateien.</string>
+    <string name="camera_alert_battery_title">Battery Warning</string>
+    <string name="camera_alert_battery_hot">Akku überhitzen, die Kamera auszuschalten.</string>
+    <string name="camera_alert_battery_low">Der Akku ist leer, die Kamera auszuschalten.</string>
+    <string name="pref_silentmode_title">Lautlos-Modus</string>
+    <string name="pref_silentmode_entry_off">Aus</string>
+    <string name="pref_silentmode_entry_on">An</string>
+    <string name="pref_camera_takepicture_mode_entry_zsl">0 Verschluss</string>
+    <string name="pref_camera_takepicture_mode_entry_normal">Normalaufnahme</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mode_switcher"
+        android:layout_height="84dp"
+        android:layout_width="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone">
+    <RelativeLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"> 
+        <com.android.camera.ui.RotateImageView android:id="@+id/mode_video"
+                android:onClick="onSwitchToVideoClicked"
+                android:clickable="true"
+                android:focusable="false"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="4dp"
+                android:scaleType="center"
+                android:src="@drawable/video_switch_selector" />
+        <!--  <View android:id="@+id/line"
+                android:layout_height="2px"
+                android:layout_width="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:scaleType="center"
+                android:background="@drawable/line_bg" /> -->
+        <!--<com.android.camera.ui.RotateImageView android:id="@+id/mode_pano"
+                android:onClick="onSwitchToPanoramaClicked"
+                android:clickable="true"
+                android:focusable="false"
+                android:layout_height="99px"
+                android:layout_width="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:scaleType="center"
+                android:background="@drawable/bg_switcher_center_pressed"
+                android:src="@drawable/ic_switch_pan_holo_light" />
+        <View android:id="@+id/line"
+                android:layout_height="2px"
+                android:layout_width="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_below="@+id/mode_pano"
+                android:scaleType="center"
+                android:background="@drawable/line_bg" />-->
+        <com.android.camera.ui.RotateImageView android:id="@+id/mode_camera"
+                android:onClick="onSwitchToCameraClicked"
+                android:clickable="true"
+                android:focusable="false"
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="7px"
+                android:scaleType="center"
+                android:src="@drawable/camera_switch_selector" />
+    </RelativeLayout>
+</RelativeLayout>

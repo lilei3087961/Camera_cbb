@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.ColorEffectSettingPopup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SettingPopupWindow" >
+
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/list_bg"
+        android:orientation="vertical" >
+
+         <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/popup_title_frame_min_height">
+
+            <TextView
+                style="@style/PopupTitleText" 
+				android:text="@string/camera_setting_color_effect" />
+        </FrameLayout>
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fadeScrollbars="false"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/color_effecdt_items_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="7.0dip"
+                android:paddingTop="7.0dip">
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</com.android.camera.ui.ColorEffectSettingPopup>
